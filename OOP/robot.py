@@ -8,6 +8,6 @@ class Robot:
         print("My name is " + self.name)
 
 
-robot1 = Robot("Tom", "Azure", "33")
+robot1 = Robot("Tom", "Azure", 33)
 
 robot1.introduce_self()
