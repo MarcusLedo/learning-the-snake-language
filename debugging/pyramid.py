@@ -6,10 +6,8 @@ def main():
 
 
 def drawing_pyramid(height):
-    i = 0
-    while i != height:
-        i += 1
-        print('#' * i, end = "\n")
+    for i in range(height):
+        print('#' * (i + 1), end = "\n")
 
 
 main()
